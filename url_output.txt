@@ -1,0 +1,1 @@
+https://artifactory.silabs.net/artifactory/iotwifi-generic-staging/wifi_release_packages/release_packages/WEARABLES_SDK_V1/WEARABLES_SDK_V1.0.0.0002/manifest.yaml

@@ -1,0 +1,45 @@
+Pin Configurations:
+-------------------
+
+1. Connect RS9116 SPI Header PIN-2 to FRDM-J27 PIN-17 for CS.
+2. Connect RS9116 SPI Header PIN-3 to FRDM-J27 PIN-2 for GND.
+3. Connect RS9116 SPI Header PIN-4 to FRDM-J27 PIN-1 for VCC.
+4. Connect RS9116 SPI Header PIN-5 to FRDM-J27 PIN-18 for CLK.
+5. Connect RS9116 SPI Header PIN-7 to FRDM-J27 PIN-19 for MOSI.
+6. Connect RS9116 SPI Header PIN-8 to FRDM-J27 PIN-20 for MISO.
+7. Connect RS9116 SPI Header PIN-9 to FRDM-J27 PIN-22 for INT.
+8. Connect RS9116 SPI Header RST-PS to FRDM-J27 PIN-27 for RESET.
+
+
+For GPIO based powersave use the following pin configurations:
+--------------------------------------------------------------
+
+a) For ULP PowerSave:
+---------------------
+1.Connect RS9116 UULP_2 to FRDM-J27 PIN-23 (Output Pin form host).
+2.Connect RS9116 UULP_3 to FRDM-J27 PIN-28 (Input Pin to host).
+
+
+Please find steps to use NXP_FRDM_K28 with mcuxpresso project :
+----------------------------------------------------------------
+1. Load firmware in RS9116 module through kermit.
+2. Connect SPI header to module (make sure connections are proper) and connect
+   power supply to the power port
+3. Change/map MCUEXPRESSO's workspace to RSI_WSDK_vX/host/sapis/platforms/NXP_FRDM_K28.
+4. Import project from 'RSI_WSDK_vX/host/sapis/platforms/NXP_FRDM_K28' into 'Project Explorer'.
+5. Once project is imported, all examples are located under the sapi->examples.
+6. Enable the required project in the examples (i.e for example right click on
+    wlan->tcp_client->Resource configurations->Exclude from Build->Deslect all) and include the 
+   rsi_config.h file path of that particular example only i.e project
+   properties->setting->includes and remove any of the unused rsi_config.h paths.
+7. Do changes in rsi_config.h (if required) and compile it.
+8. Load the application from MCUEXPRESSO and run it.
+
+Note:
+=====
+1. For Active High firmware image (LOAD_NWP_FW) configure interrupt mode to rising edge (Ex:GPIO_MODE_IT_RISING) in main.c. 
+2. For Active Low firmware image (LOAD_DEFAULT_NWP_FW_ACTIVE_LOW) configure interrupt mode to falling edge (Ex:GPIO_MODE_IT_FALLING) in main.c. 
+
+
+
+
