@@ -1,0 +1,578 @@
+Date: Mon, 14 Aug 2023 09:34:13 +0000 (UTC)
+Message-ID: <1552359574.47424.1692005653568@conause03.silabs.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_47423_1959585247.1692005653567"
+
+------=_Part_47423_1959585247.1692005653567
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Wearables Release Notes</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Wearables Release Notes</h1>
+    <div class=3D"Section1">
+        <h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Release=
+Details">Release Details</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" style=3D"text-align: left;">
+<thead>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Item</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Release date</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Aug14th</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">API Version (SAPI)</=
+td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">1.4.0(Build 2)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Firmware Version</td=
+>
+<td style=3D"text-align: left;" class=3D"confluenceTd">1.4.0.0.2(Build 2)</=
+td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Package Name</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Wearable_Si91x_1.4.0=
+.2</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Supported RTOS</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">FreeRTOS</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Hardware Modules</td=
+>
+<td style=3D"text-align: left;" class=3D"confluenceTd">&nbsp;B00&nbsp;&nbsp=
+;</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Hardware Chipsets</t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Chip Revision 1.5</t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Operating Modes Supp=
+orted</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Wi-Fi STA, BT-Classi=
+c , BLE , BT-Classic +BLE, Wi-Fi STA+BLE, Wi-Fi STA+BT-Classic, Wi-Fi STA+B=
+T-Classic+BLE&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-UpdatesinthisRe=
+lease">Updates in this Release</h2>
+<p style=3D"text-align: left;">RS9116 Wearables release consists of two com=
+ponents</p>
+<ul style=3D"text-align: left;">
+<li>Firmware - RS9116 Firmware Binary</li>
+<li>SAPI Library - SAPI Library runs on Host</li>
+</ul>
+<p style=3D"text-align: left;">It is strongly recommended to upgrade SAPI a=
+nd Firmware together.</p>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Features">Featu=
+res</h2>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Wi-Fi">Wi-Fi</h=
+3>
+<ul>
+<li>SSL Tx &amp; SSL Rx</li>
+<li>HTTP &amp; HTTPS download</li>
+<li>HTTP download using LWIP stack</li>
+<li>TCP Tx &amp; Rx using LWIP stack</li>
+<li>TCP, UDP, SSL - Tx &amp; Rx Throughputs</li>
+<li>HTTP &amp; HTTPS download Throughputs</li>
+<li>WLAN secure&nbsp; &amp; TLS socket connection and disconnection</li>
+<li>Continuous Scan + Connection + Disconnection for a maximum of 10 access=
+ points</li>
+<li>Multithreaded HTTP download(Number of threads :1 to 4)&nbsp;</li>
+<li>Multithreaded TCP Tx(Number of threads :1 to 4)&nbsp;</li>
+<li>Powersave Standby and Deepsleep(with and without RAM retention)</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-BT-Classic">BT-=
+Classic</h3>
+<ul>
+<li>Master&nbsp;</li>
+<li>Slave&nbsp;</li>
+<li>A2DP Source Streaming&nbsp;</li>
+<li>AVRCP&nbsp;</li>
+<li>GAP&nbsp;</li>
+<li>L2CAP&nbsp;</li>
+<li>Role Switch&nbsp;</li>
+<li>Enhanced Data Rate&nbsp;</li>
+<li><p>AVDTP stats</p></li>
+<li>Sniff&nbsp;</li>
+<li>Host based auto rate(changes from 3DH3/5 to 2DH3/5 vice versa based on =
+error rate)&nbsp;</li>
+<li>Enable/Disable Bluetooth classic dynamically&nbsp;</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-BLE">BLE&nbsp;<=
+/h3>
+<ul>
+<li>Central&nbsp;</li>
+<li>Peripheral&nbsp;</li>
+<li>LE Dual Role&nbsp;</li>
+<li><span style=3D"color: rgb(71,71,71);">Data Packet Length Extension(DLE)=
+</span></li>
+<li><span style=3D"color: rgb(71,71,71);">Privacy&nbsp;</span></li>
+<li><span style=3D"color: rgb(71,71,71);">SMP&nbsp;</span></li>
+<li><span style=3D"color: rgb(71,71,71);">BLE Whitelisting&nbsp;</span></li=
+>
+<li><span style=3D"color: rgb(71,71,71);">GAP profile&nbsp;</span></li>
+<li><span style=3D"color: rgb(71,71,71);">GATT profile&nbsp;</span></li>
+<li><span style=3D"color: rgb(71,71,71);">LE L2CAP</span></li>
+<li><span style=3D"color: rgb(71,71,71);">8 Peripheral &amp; 2 Central conn=
+ections</span></li>
+<li><p>Set Tx power based on GAP Roles</p></li>
+</ul>
+<p><br></p>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-ChangesandFixes=
+">Changes and Fixes</h2>
+<p>&nbsp; -None&nbsp;</p>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-NewAPIs">New AP=
+Is</h2>
+<p style=3D"text-align: left;"><br></p>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Recommendations=
+">Recommendations&nbsp;</h2>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Wi-Fi.1">Wi-Fi<=
+/h3>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-BT-Classic/BLE"=
+>BT-Classic/BLE</h3>
+<ul style=3D"text-align: left;">
+<li>In BLE, recommended range of Connection Interval in
+<ul>
+<li>BLE alone with power Save&nbsp; - 100ms to 1.28 s.</li>
+<li>BT Classic + BLE Dual Mode is &gt;=3D 200ms.</li>
+<li>Wi-Fi + BLE CoEx - 45ms to 500ms</li>
+</ul></li>
+<li>In BLE, during Connection, the configuration of Scan Interval and Scan =
+Window with same value is not recommended.</li>
+<li>In BLE mode, if scanning and advertising is in progress and subsequentl=
+y gets connected and moves to the central role, scanning and advertising st=
+ops. To further establish connection to another peripheral device or to a c=
+entral device, the application should give a command for starting advertisi=
+ng and scanning again.</li>
+<li>Device Power save need to be disabled before BT-Classic init and de-ini=
+t.</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Coexistence">Co=
+existence</h3>
+<ul style=3D"text-align: left;">
+<li>Wi-Fi + BLE Advertising
+<ul>
+<li>All the advertising intervals are supported, as per the BT Spec. If the=
+ Wi-Fi transactions are more, you may observe a slight difference in on-air=
+ advertisements compared to the configured intervals.</li>
+<li>BLE Advertising will be stopped for intervals that collide with Wi-Fi a=
+ctivity.</li>
+</ul></li>
+<li>Wi-Fi + BLE scanning
+<ul>
+<li>All scan intervals are supported as per BT Spec. For better scan result=
+s, use scan-window and scan interval in 1:3 or 1:4 ratio when the Wi-Fi sca=
+n activity is present.</li>
+<li>BLE scanning will be stopped for intervals that collide with Wi-Fi acti=
+vity.</li>
+</ul></li>
+<li>Wi-Fi + BLE Central/Peripheral Connections
+<ul>
+<li>All connection intervals are supported as per BT Spec.</li>
+<li>For stable connection, use optimal connection intervals and max supervi=
+sion timeout in the presence of Wi-Fi activity.</li>
+</ul></li>
+<li>Wi-Fi + BLE Central/Peripheral Data Transfer
+<ul>
+<li>To get better throughputs in both Wi-Fi and BLE, use minimum connection=
+ intervals, such as 45 to 80ms with Maximum supervision timeout.</li>
+<li>Ensure Wi-Fi activity consumes lesser intervals.</li>
+</ul></li>
+<li>For Wi-Fi + BT-Classic + BLE, Wi-Fi + BT-Classic, Wi-Fi + BLE operating=
+ modes, connect Wi-Fi ahead of BT-Classic/BLE connections to ensure seamles=
+s, stable connection for all 3 protocols.</li>
+<li>For Wi-Fi + BT-Classic + BLE, Wi-Fi + BT-Classic, Wi-Fi + BLE operating=
+ modes, if BT-Classic /BLE needs to be connected ahead of Wi-Fi connection,=
+ use with high supervision timeout and high connection interval for BLE and=
+ high sniff interval for BT-classic , to ensure seamless, stable connection=
+. This configuration will also ensure a stable BT-classic /BLE connection w=
+hen Wi-Fi connects/disconnects/rejoins.</li>
+<li>WiFi+ BT-Classic&nbsp;
+<ul style=3D"text-align: left;">
+<li>A2DP streaming not supported during WiFi downloading/uploading&nbsp;</l=
+i>
+<li>Powersave should be disable before WiFi downloading/uploading to achiev=
+e higher Wi-Fi throughput&nbsp; &nbsp;</li>
+</ul></li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-System">System<=
+/h3>
+<ul style=3D"text-align: left;">
+<li>Memory Configuration must be 384K for BT-Classic/BLE and Co-Ex Operatin=
+g Modes
+<ul>
+<li>Usage of Low Power Flash mode bit (Bit 19 in Extended customer feature =
+bitmap). Enable this bit for Ultra low power standby associated scenarios. =
+This results in about 20=C2=B5A lower Wi-Fi standby associated current cons=
+umption..</li>
+</ul></li>
+<li>Always use opermode ( 0x109 ) to test all BT-Classic/BLE/WiFi usecase</=
+li>
+<li><p>For 1.5Rev Silicon Chip's UULP_GPIO_0 is used as a wakeup indication=
+ to host, user should update following bitmaps to make use of this chip ver=
+sion<br>- BIT(0) should be set in RSI_CONFIG_FEATURE_BIT_MAP &amp;<br>- BIT=
+(31) should be set in both TCP_IP_FEATURE_BIT_MAP and EXT_TCP_IP_FEATURE_BI=
+T_MAP.<br>- BIT(23) should be set in RSI_EXT_CUSTOM_FEATURE_BIT_MAP. <br>- =
+EXT_FEAT_XTAL_CLK_ENABLE (BIT(22)) should be reset in RSI_EXT_CUSTOM_FEATUR=
+E_BIT_MAP.</p></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-KnownIssues">Kn=
+own Issues</h2>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Wi-Fi.2">Wi-Fi<=
+/h3>
+<ul>
+<li>None</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-BT-Classic/BLE.=
+1">BT-Classic/BLE</h3>
+<ul>
+<li>When DUT is in Acceptor mode, sometimes ACL Connection is not getting e=
+stablished&nbsp;</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Coexistence.1">=
+Coexistence</h3>
+<ul style=3D"text-align: left;">
+<li>In Co-Ex Mode if power save is enabled, it stays in enabled state even =
+after Wi-Fi disconnection. Disable power save after every<span>&nbsp;</span=
+><code style=3D"text-decoration: inherit;">radio_init()</code><span>&nbsp;<=
+/span>and enable it when intended by application.</li>
+<li>BLE may disconnect with Wi-Fi + BLE configuration and Wi-Fi continuous =
+data transfer when the low BLE supervision timeout is configured. When the =
+supervision timeout is configured with the value of 16 seconds, no disconne=
+ctions are observed.</li>
+<li>In Wi-Fi + BT-Classic/BLE configuration with Wi-Fi disconnects, BT-Clas=
+sic/BLE reconnection issue is observed (see the earlier section 'Recommenda=
+tions' in this document for stable connections).</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Interoperabilit=
+y">Interoperability</h3>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-System.1">Syste=
+m</h3>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-LimitationsandU=
+nsupportedFeatures">Limitations and Unsupported Features</h2>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Wi-Fi.3">Wi-Fi<=
+/h3>
+<ul>
+<li>LWIP support is available only for IAR project.</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-BTClassic/BLE">=
+BT Classic/BLE</h3>
+<ul style=3D"text-align: left;">
+<li>BT multiple slaves feature is not supported&nbsp;</li>
+<li>For BLE, if the connection is established with a small connection inter=
+val (&lt; 15 ms), simultaneous roles (i.e., Central/Peripheral + Advertisin=
+g/Scanning) are not supported.</li>
+<li>BLE Slave latency value is valid up to 32 only.</li>
+<li>BT-A2DP Encoder is not supported in the firmware</li>
+<li>AT mode support is not exist&nbsp;</li>
+</ul>
+<h3 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Coexistence.2">=
+Coexistence</h3>
+<ul style=3D"text-align: left;">
+<li>In Wi-Fi + BLE during Wi-Fi connection, if both BLE scan interval and w=
+indow are the same, an issue will occur in successfully making the Wi-Fi co=
+nnection.</li>
+<li>Wi-Fi STA + BT-Classic + BLE multiprotocol cases require detailed under=
+standing of use cases and associated configurations. Contact Silicon Labs S=
+upport for more details.</li>
+<li>Wi-Fi AP + BLE, Wi-Fi AP + BT-Classic &amp; Wi-Fi AP + BT-Classic + BLE=
+ modes are not supported.</li>
+</ul>
+<p style=3D"text-align: left;"><br></p>
+<h2 style=3D"text-align: left;" id=3D"WearablesReleaseNotes-Terminology">Te=
+rminology</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" style=3D"text-align: left;">
+<thead>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Term</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>New Features=
+</strong></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">These items are new =
+to this release</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>Changes/Issu=
+es Fixed</strong></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Changes made to exis=
+ting features found in previous releases of the software.</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Enhancements to exis=
+ting product flow and feature set.</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Bug fixes done in th=
+e Release</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>Deprecated I=
+tems</strong></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Features or function=
+s or APIs that are removed from the distributed release to align with the s=
+oftware roadmap</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>Known Issues=
+</strong></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Features or function=
+s that do not work as planned at time of release. Workarounds may be offere=
+d to meet short term development goals, but longer-term solutions will be a=
+dded in future software releases</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>Limitations/=
+Recommendations</strong></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Describes the limita=
+tions on product usage and recommendations for optimal use cases</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_47423_1959585247.1692005653567--

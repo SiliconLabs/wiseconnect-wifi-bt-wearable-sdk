@@ -68,7 +68,7 @@
 #define RSI_TX_BUFFER_FULL -2
 #define RSI_SOFT_RESET     0
 #define RSI_HARD_RESET     1
-#define RSI_DRIVER_VERSION "1611.1.4.0.0.2"
+#define RSI_DRIVER_VERSION "1611.1.4.0.0.1"
 
 #ifdef CONFIGURE_GPIO_FROM_HOST
 typedef struct rsi_gpio_pin_config_val_s {
